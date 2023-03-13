@@ -1,0 +1,114 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* GENERAL */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 1296px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* HEADER */
+
+.header {
+  background-color: grey;
+  height: 50px;
+  display: flex;
+  align-self: center;
+}
+
+/* NAV */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  align-items: center;
+}
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+.nav-link:hover {
+  color: lightgrey;
+  border-bottom: 2px solid #fff;
+}
+.general-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.h1-general {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.img-general {
+  width: 400px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.list ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.list li {
+  list-style-type: none;
+  font-size: 18px;
+}
+.list a {
+  color: black;
+}
+.list a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+/* BREED */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.h1-info {
+  font-size: 30px;
+  margin: 20px 0;
+}
+.img-info {
+  width: 700px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.p-info {
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+/* FOOTER */
+.footer {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: 40px;
+}
+.footer p {
+  color: #fff;
+  padding: 0 110px;
+}
+.general {
+  min-height: calc(100vh - 90px);
+}
